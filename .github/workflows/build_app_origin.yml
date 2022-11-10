@@ -1,4 +1,4 @@
-name: Build job
+name: Build job Origin
 
 on:
   # Just manually for now
