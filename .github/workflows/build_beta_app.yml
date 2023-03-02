@@ -1,4 +1,4 @@
-name: Build job
+name: Build job Beta
 
 on:
   # Just manually for now
@@ -16,7 +16,7 @@ on:
 
 jobs:
   build-app:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Clone Repository (Latest)
         uses: actions/checkout@v3
